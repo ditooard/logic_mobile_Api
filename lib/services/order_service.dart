@@ -13,8 +13,6 @@ class OrderService {
       },
     );
 
-    print('cekkkk ${response.body}');
-
     if (response.statusCode == 200) {
       return jsonDecode(response.body);
     } else {

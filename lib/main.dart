@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/splash': (context) => SplashPage(),
         '/login': (context) => LoginPage(),
-        '/dashboard': (context) => OrderDetailsPage(),
+        '/dashboard': (context) => SearchPage(),
       },
     );
   }
